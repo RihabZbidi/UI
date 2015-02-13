@@ -113,6 +113,18 @@ footer {
  background-image: url(img/help.png);
 }
 
+.bug {
+ background-image: url(img/bug.png);
+}
+
+.search-icon {
+ background-image: url(img/search-home.png);
+}
+
+.new-account {
+ background-image: url(img/new-account.png);
+}
+
 .home-item {
   display: inline-block;
   height: 140px;
@@ -122,6 +134,7 @@ footer {
   background-repeat: no-repeat;
   background-position: top;
   text-decoration: none;
+  vertical-align: top;
 }
 
 .home-item span {
