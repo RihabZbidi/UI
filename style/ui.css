@@ -100,6 +100,37 @@ footer {
   display: block;
 }
 
+footer .footerText{
+  height: 60px;
+  width: calc(100% - 40px);
+  margin: 0 auto 0 auto;
+  padding-top: 10px;
+}
+
+footer .footerText .footerLink{
+color: white;
+text-decoration: none;
+margin: 0 10px;
+}
+
+footer .footerText .footerLink:hover{
+color: #4183C4;
+}
+
+.left{
+float:left;
+}
+
+.right{
+  float:right;
+
+}
+.rights{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
 .main {
   min-height: 400px;
   height: calc(100vh - 120px);
