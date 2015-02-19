@@ -108,17 +108,17 @@ footer .footerText{
 }
 
 footer .footerText .footerLink{
-color: white;
-text-decoration: none;
-margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 footer .footerText .footerLink:hover{
-color: #4183C4;
+  color: #4183C4;
 }
 
 .left{
-float:left;
+  float:left;
 }
 
 .right{
@@ -141,19 +141,19 @@ float:left;
 }
 
 .help {
- background-image: url(img/help.png);
+  background-image: url(img/help.png);
 }
 
 .bug {
- background-image: url(img/bug.png);
+  background-image: url(img/bug.png);
 }
 
 .search-icon {
- background-image: url(img/search-home.png);
+  background-image: url(img/search-home.png);
 }
 
 .new-account {
- background-image: url(img/new-account.png);
+  background-image: url(img/new-account.png);
 }
 
 .home-item {
