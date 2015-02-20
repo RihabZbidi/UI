@@ -133,6 +133,9 @@ footer .footerText .footerLink:hover{
 }
 .main {
   min-height: 400px;
+}
+
+.main.fixed {
   height: calc(100vh - 120px);
 }
 

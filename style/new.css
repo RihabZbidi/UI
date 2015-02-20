@@ -1,0 +1,78 @@
+.newbug {
+  margin-left: 100px;
+}
+
+.newbug h1,
+.newbug h2,
+.newbug h3 {
+  color: rgb(45,45,45);
+}
+
+.newbug .title {
+  margin: 5px 10px;
+}
+
+.newbug  span{
+  font-size: 15px;
+}
+
+.newbug table tr td {
+  vertical-align: top;
+}
+.newbug input[type=text] {
+  background: #f5f5f5;
+  font-size: 12px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 10px;
+  width: 330px;
+  margin-bottom: 20px;
+  box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+
+}
+
+.newbug select {
+    background: #f5f5f5;
+    font-size: 12px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+}
+
+.newbug textarea {
+    background: #f5f5f5;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    vertical-align: top;
+}
+
+
+.newbug .submit{
+  height:40px;
+  width: 100px;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  background:#90c843;
+  color:#FFF;
+  font-weight:bold;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+}
