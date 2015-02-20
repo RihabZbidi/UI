@@ -1,3 +1,10 @@
+.login-window {
+  display: none;
+  position: absolute;
+  top: 100px;
+  right: calc(50% - 150px);
+}
+
 .formContainer{
   margin: 30px auto 30px auto;
   Border : 1px solid #222222;
@@ -6,9 +13,11 @@
   height: 150px;
   padding: 10px 10px;
   background-color: #256188;
+  position: relative;
 }
 
-.formContainer table{
+.formContainer table,
+.formContainer table tr{
   width: 100%;
 
 }
@@ -22,12 +31,14 @@
   border-radius: 4px;
 }
 
+.formContainer .pass {
+}
+
 
 .formContainer .loginbutton{
   float: right;
   height: 30px;
-  float: right;
-  width: auto;
+  width: 100px;
   color: #FFF;
   background-color: #17A353;
   border: 1px solid #FFFFFF;
@@ -37,4 +48,16 @@
 .formContainer .logintext{
   color : white;
 
+}
+
+.formContainer .quit{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 24px;
+  height: 24px;
+  background-image: url(img/exit.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  cursor: pointer;
 }
