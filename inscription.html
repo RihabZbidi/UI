@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style/ui.css" />
+  <link rel="stylesheet" href="style/login.css" />
+  <link rel="stylesheet" href="style/inscription.css" />
+  <script src="js/bugstrap.js"></script>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Bugstrap</a>
+    <div class="userMenu">
+      <input type="text" class="search" />
+      <input type="submit" class="searchButton" value="?"/>
+    </div>
+    <a href="#" onclick="showLogin()" class="userButton">Log In</a>
+    <a href="#" class="userButton">Sign Up</a>
+  </header>
+  <div class="main">
+        <form action="#" method="post">
+            <table>
+            <tr>
+            <td><strong>Nom et Prénom</strong></td>
+            <td><input type="text" name="NomPrénom" id="login"/></td>
+            </tr>
+            <tr>
+            <td><strong>Mot de passe :</strong></td>
+            <td><input type="password" name="Motdepasse" id="pass"/></td>
+            </tr>
+            <tr>
+            <td><label for="pass2"><strong>Confirmez le mot de passe :</strong></label></td>
+            <td><input type="password" name="pass2" id="pass2"/></td>
+            </table>
+        <input type="submit" name="register" value="M'inscrire"id="register"/>
+        <input type="reset" name="register" value="Effacer" id="reset"/>
+        </form>
+  </div>
+  <div class="login-window" id="login-window">
+    <form class="formContainer">
+      <div class="quit" onclick="hideLogin()"></div>
+      <center><h1 class="logintext">Login</h2></center>
+      <table>
+        <tr>
+          <td colspan="2"><input type="text" class="email"/></td>
+        </tr>
+        <tr>
+          <td><input type="text" class="pass" /></td>
+          <td><input type="submit" class="loginbutton"/></td>
+        </tr>
+      </table>
+      </table>
+    </from>
+  </div>
+  <footer>
+    <div class="footerText">
+      <a href="#" class="footerLink left">Bugstrap</a>
+      <a href="#" class="footerLink left">Bugstrap</a>
+      <a href="#" class="footerLink left">Bugstrap</a>
+      <a href="#" class="footerLink right">Bugstrap</a>
+      <a href="#" class="footerLink right">Bugstrap</a>
+      <a href="#" class="footerLink right">Bugstrap</a>
+      <span class="right rights">All Rights Reserved (C) </span>
+
+    </div>
+
+  </footer>
+</body>
+</html>
