@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style/login.css" />
   <link rel="stylesheet" href="style/inscription.css" />
   <script src="js/bugstrap.js"></script>
+
 </head>
 <body>
   <header>
@@ -17,24 +18,15 @@
     <a href="#" onclick="showLogin()" class="userButton">Log In</a>
     <a href="#" class="userButton">Sign Up</a>
   </header>
-  <div class="main">
-        <form action="#" method="post">
-            <table>
-            <tr>
-            <td><strong>Nom et Prénom</strong></td>
-            <td><input type="text" name="NomPrénom" id="login"/></td>
-            </tr>
-            <tr>
-            <td><strong>Mot de passe :</strong></td>
-            <td><input type="password" name="Motdepasse" id="pass"/></td>
-            </tr>
-            <tr>
-            <td><label for="pass2"><strong>Confirmez le mot de passe :</strong></label></td>
-            <td><input type="password" name="pass2" id="pass2"/></td>
-            </table>
-        <input type="submit" name="register" value="M'inscrire"id="register"/>
-        <input type="reset" name="register" value="Effacer" id="reset"/>
-        </form>
+  <div class="main fixed">
+      <form id="signup">
+        <h1>Inscrivez-Vous</h1>
+    <input type="NomPrenom" placeholder="Nom et Prénom" required="">
+    <input type="email" placeholder="Adresse e-mail" required="">
+    <input type="password" placeholder="Mot de passe" required="">
+    <input type="password" placeholder="Confirmez le mot de passe" required="">
+    <button type="submit">M'inscrire!</button>
+    </form>
   </div>
   <div class="login-window" id="login-window">
     <form class="formContainer">
